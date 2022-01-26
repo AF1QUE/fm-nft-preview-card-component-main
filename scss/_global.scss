@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+@mixin typography($size, $weight, $color) {
+  font-size: $size;
+  font-weight: $weight;
+  color: $color;
+}
+
+h2 {
+  @include typography(22px, 600, $white);
+  letter-spacing: 1px;
+}
+
+h3 {
+  @include typography(16px, 400, $softBlue);
+}
+
+p {
+  @include typography(18px, 300, $softBlue);
+}

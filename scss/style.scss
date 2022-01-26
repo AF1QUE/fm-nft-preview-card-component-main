@@ -1,0 +1,72 @@
+@import "variables";
+@import "global";
+
+body {
+  background-color: $mainBg;
+}
+
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 350px;
+}
+
+.card {
+  background-color: $cardBg;
+  padding: 25px;
+  border-radius: 10px;
+
+  &__img {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  &__title {
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+
+  .meta {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+
+    &__price {
+      color: $cyan;
+      font-weight: 600;
+    }
+
+    .fas {
+      margin-right: 8px;
+    }
+
+    .fab {
+      @extend .fas;
+    }
+  }
+
+  hr {
+    border: 1px solid $line;
+    margin-bottom: 20px;
+  }
+
+  .author {
+    display: flex;
+    flex-direction: flex-star;
+    align-items: center;
+
+    &__avatar {
+      width: 35px;
+      border: 1px solid $white;
+      border-radius: 50%;
+      margin-right: 15px;
+    }
+
+    &__info span {
+      color: $white;
+    }
+  }
+}

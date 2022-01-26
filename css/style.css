@@ -1,0 +1,104 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #8bacda;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #8bacda;
+}
+
+body {
+  background-color: #0d192b;
+}
+
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 350px;
+}
+
+.card {
+  background-color: #14253d;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.card__img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card__title {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.card .meta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.card .meta__price {
+  color: #00fff7;
+  font-weight: 600;
+}
+
+.card .meta .fas, .card .meta .fab {
+  margin-right: 8px;
+}
+
+.card hr {
+  border: 1px solid #2f415b;
+  margin-bottom: 20px;
+}
+
+.card .author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: flex-star;
+          flex-direction: flex-star;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .author__avatar {
+  width: 35px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.card .author__info span {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
