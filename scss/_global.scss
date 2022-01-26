@@ -16,7 +16,7 @@ body {
   color: $color;
 }
 
-h2 {
+h1 {
   @include typography(22px, 600, $white);
   letter-spacing: 1px;
 }
