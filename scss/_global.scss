@@ -21,7 +21,7 @@ h1 {
   letter-spacing: 1px;
 }
 
-h3 {
+h2 {
   @include typography(16px, 400, $softBlue);
 }
 
